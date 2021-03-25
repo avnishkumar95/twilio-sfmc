@@ -78,9 +78,9 @@ define([
     }
 
     function onGetTokens (tokens) {
-        // Response: tokens = { token: <legacy token>, fuel2token: <fuel api token> }
-        console.log("Tokens function: "+JSON.stringify(tokens));
-        //authTokens = tokens;
+         Response: tokens = { token: <legacy token>, fuel2token: <fuel api token> }
+         console.log("Tokens function: "+JSON.stringify(tokens));
+         authTokens = tokens;
     }
 
     function onGetEndpoints (endpoints) {
