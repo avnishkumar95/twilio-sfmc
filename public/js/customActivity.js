@@ -9,7 +9,7 @@ define([
     var payload = {};
     var lastStepEnabled = false;
     var steps = [ // initialize to the same value as what's set in config.json for consistency
-        { "label": "Create SMS Message", "key": "96429b8f-742f-4b2a-80b4-1678130af54b" }
+        { "label": "Create SMS Message", "key": "step1" }
     ];
     var currentStep = steps[0].key;
 
@@ -84,7 +84,7 @@ define([
     }
 
     function onGetEndpoints (endpoints) {
-         Response: endpoints = { restHost: endpoints } ;
+         // Response: endpoints = { restHost: <url> } i.e. "rest.s1.qa1.exacttarget.com"
         console.log("Get End Points function: "+JSON.stringify(endpoints));
     }
 
