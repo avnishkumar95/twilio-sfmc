@@ -16,7 +16,7 @@
         "execute": {
             "inArguments": [
                 {
-                  "email": "{{Contact.Default.EmailAddress}}",
+                  "email": "{{Contact.Attribute.testingmanisha.Email}}",
                   "to": "{{Contact.Attribute.testingmanisha.Phone}}" 
                 }               
             ],
@@ -65,7 +65,7 @@
        }
     },
     "wizardSteps": [
-       { "label": "Create SMS Message", "key": "c08d893e-2943-4c13-83d7-a5b18bd28bc3" }
+       { "label": "Create SMS Message", "key": "step1" }
     ],
     "userInterfaces": {
        "configModal": {
