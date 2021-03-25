@@ -30,7 +30,7 @@
         }
     },
     "configurationArguments": {
-      "applicationExtensionKey": "96429b8f-742f-4b2a-80b4-1678130af54b",
+      "applicationExtensionKey": "c08d893e-2943-4c13-83d7-a5b18bd28bc3",
        "save": {
            "url": "https://avpsmsapp.herokuapp.com/save",
             "verb": "POST",
@@ -65,7 +65,7 @@
        }
     },
     "wizardSteps": [
-       { "label": "Create SMS Message", "key": "96429b8f-742f-4b2a-80b4-1678130af54b" }
+       { "label": "Create SMS Message", "key": "c08d893e-2943-4c13-83d7-a5b18bd28bc3" }
     ],
     "userInterfaces": {
        "configModal": {
