@@ -84,7 +84,7 @@ define([
     }
 
     function onGetEndpoints (endpoints) {
-        Response: endpoints = 'https://avpsmsapp.herokuapp.com/';//{ restHost: <url> } i.e. "rest.s1.qa1.exacttarget.com"
+        Response: endpoints = //{ restHost: <url> } i.e. "rest.s1.qa1.exacttarget.com"
         console.log("Get End Points function: "+JSON.stringify(endpoints));
     }
 
@@ -100,7 +100,7 @@ define([
             "authToken": authToken,
             "messagingService": messagingService,
             "body": body,
-            "to": "{{Contact.Attribute.testingmanisha.Phone}}" //<----This should map to your data extension name and phone number column
+            "to": "{{Lead.Attribute.testingmanisha.Phone}}" //<----This should map to your data extension name and phone number column
         }];
 
         payload['metaData'].isConfigured = true;
